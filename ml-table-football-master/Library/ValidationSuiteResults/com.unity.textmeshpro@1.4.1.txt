@@ -1,0 +1,52 @@
+Validation Suite Results for package "com.unity.textmeshpro"
+ - Path: C:\Users\krish\OneDrive\Documents\Capstone\Unity_Foosball\ml-table-football-master\Library\PackageCache\com.unity.textmeshpro@1.4.1
+ - Version: 1.4.1
+ - Test Time: 10/4/2022 10:19:25 AM
+ - Tested with com.unity.package-validation-suite version: 0.7.15-preview
+
+VALIDATION RESULTS:
+-------------------
+
+Failed - "API Validation"
+    Error: Compilation failed. Please fix any compilation errors.
+    
+Failed - "API Updater Configuration Validation"
+    Error: Compilation failed. Please fix any compilation errors.
+    
+Failed - "Package Update Validation"
+    Error: Version 1.4.1 of this package already exists in production.
+    
+Failed - "Xmldoc Validation"
+    Error: Compilation failed. Please fix any compilation errors.
+    
+Succeeded - "Assembly Definition Validation"
+    
+Succeeded - "ChangeLog Validation"
+    
+Succeeded - "Package Diff Evaluation"
+    
+Succeeded - "Folder Structure Validation"
+    
+Succeeded - "License Validation"
+    Warning: A LICENSE.md file exists in the package, but is in the wrong format.  Ensure the copyright year is set properly, otherwise, please check the package starter kit's license file as reference.  https://github.cds.internal.unity3d.com/unity/com.unity.package-validation-suite/blob/dev/LICENSE.md  It was `TextMesh Pro copyright © 2014-2019 Unity Technologies ApS` but was expecting `com.unity.textmeshpro copyright © 2022 Unity Technologies ApS` or `TextMesh Pro copyright © 2022 Unity Technologies ApS`
+    
+Succeeded - "Documentation Validation"
+    
+Succeeded - "Manifest Validation"
+    
+Succeeded - "Meta Files Validation"
+    
+Succeeded - "Path Length Validation"
+    
+Succeeded - "Required File Type Validation"
+    
+Succeeded - "Restricted File Type Validation"
+    Warning: C:\Users\krish\OneDrive\Documents\Capstone\Unity_Foosball\ml-table-football-master\Library\PackageCache\com.unity.textmeshpro@1.4.1\Package Resources\TMP Essential Resources.unitypackage should not be included in packages unless absolutely necessary.  Please confirm that it's inclusion is deliberate and intentional.
+
+    Warning: C:\Users\krish\OneDrive\Documents\Capstone\Unity_Foosball\ml-table-football-master\Library\PackageCache\com.unity.textmeshpro@1.4.1\Package Resources\TMP Examples & Extras.unitypackage should not be included in packages unless absolutely necessary.  Please confirm that it's inclusion is deliberate and intentional.
+    
+NotRun - "Samples Validation"
+    Information: No samples found. Skipping Samples Validation.
+    
+NotImplementedYet - "Signature Validation"
+    

@@ -1,0 +1,57 @@
+Validation Suite Results for package "com.unity.barracuda"
+ - Path: C:\Users\krish\OneDrive\Documents\Capstone\Unity_Foosball\ml-table-football-master\Library\PackageCache\com.unity.barracuda@0.5.0-preview
+ - Version: 0.5.0-preview
+ - Test Time: 10/4/2022 10:14:42 AM
+ - Tested with com.unity.package-validation-suite version: 0.7.15-preview
+
+PACKAGE DEPENDENCIES:
+--------------------
+    - com.unity.burst@1.1.1
+
+VALIDATION RESULTS:
+-------------------
+
+Failed - "API Validation"
+    Error: Compilation failed. Please fix any compilation errors.
+    
+Failed - "API Updater Configuration Validation"
+    Error: Compilation failed. Please fix any compilation errors.
+    
+Failed - "Package Update Validation"
+    Error: Version 0.5.0-preview of this package already exists in production.
+    
+Failed - "Xmldoc Validation"
+    Error: Compilation failed. Please fix any compilation errors.
+    
+Succeeded - "Assembly Definition Validation"
+    
+Succeeded - "ChangeLog Validation"
+    
+Succeeded - "Package Diff Evaluation"
+    
+Succeeded - "Folder Structure Validation"
+    Warning: The Resources Directory should not be used in packages.  For more guidance, please visit https://docs.unity3d.com/Manual/BestPracticeUnderstandingPerformanceInUnity6.html
+
+    Information: Problematic directory: /C:/Users/krish/OneDrive/Documents/Capstone/Unity_Foosball/ml-table-football-master/Library/PackageCache/com.unity.barracuda@0.5.0-preview/Barracuda/Core/Resources
+    
+Succeeded - "License Validation"
+    Warning: A LICENSE.md file exists in the package, but is in the wrong format.  Ensure the copyright year is set properly, otherwise, please check the package starter kit's license file as reference.  https://github.cds.internal.unity3d.com/unity/com.unity.package-validation-suite/blob/dev/LICENSE.md  It was `Barracuda cross-platform Neural Net engine copyright © 2018 Unity Technologies ApS` but was expecting `com.unity.barracuda copyright © 2022 Unity Technologies ApS` or `Barracuda copyright © 2022 Unity Technologies ApS`
+    
+Succeeded - "Documentation Validation"
+    
+Succeeded - "Manifest Validation"
+    
+Succeeded - "Meta Files Validation"
+    
+Succeeded - "Path Length Validation"
+    
+Succeeded - "Required File Type Validation"
+    
+Succeeded - "Restricted File Type Validation"
+    Warning: C:\Users\krish\OneDrive\Documents\Capstone\Unity_Foosball\ml-table-football-master\Library\PackageCache\com.unity.barracuda@0.5.0-preview\Barracuda\Plugins\ProtoBuffer\Google.Protobuf.dll should not be included in packages unless absolutely necessary.  Please confirm that it's inclusion is deliberate and intentional.
+    
+NotRun - "Samples Validation"
+    Information: No samples found. Skipping Samples Validation.
+    
+NotImplementedYet - "Signature Validation"
+    

@@ -1,0 +1,431 @@
+Package Update Delta Evaluation
+-------------------------------
+
+Package Name: com.unity.textmeshpro
+Package Version: 1.4.1
+Compared to Version: 1.4.0
+
+Removed from package:
+    \Scripts\Runtime\TMP_EditorResourceManager.cs
+    \Scripts\Runtime\TMP_EditorResourceManager.cs.meta
+
+Modified:
+    \.gitlab-ci.yml
+    \CHANGELOG.md
+    \CHANGELOG.md.meta
+    \Editor Resources.meta
+    \LICENSE.md
+    \LICENSE.md.meta
+    \Package Resources.meta
+    \package.json
+    \package.json.meta
+    \PackageConversionData.json
+    \PackageConversionData.json.meta
+    \PackageConversionData_Assets.json
+    \PackageConversionData_Assets.json.meta
+    \Scripts.meta
+    \Tests.meta
+    \Documentation~\TextMeshPro.md
+    \Documentation~\TextMeshPro.md.meta
+    \Editor Resources\Gizmos.meta
+    \Editor Resources\Shaders.meta
+    \Editor Resources\Textures.meta
+    \Editor Resources\Gizmos\TMP - Dropdown Icon.psd.meta
+    \Editor Resources\Gizmos\TMP - Font Asset Icon.psd.meta
+    \Editor Resources\Gizmos\TMP - Input Field Icon.psd.meta
+    \Editor Resources\Gizmos\TMP - Sprite Asset Icon.psd.meta
+    \Editor Resources\Gizmos\TMP - Text Component Icon.psd.meta
+    \Editor Resources\Shaders\TMP_Properties.cginc
+    \Editor Resources\Shaders\TMP_Properties.cginc.meta
+    \Editor Resources\Shaders\TMP_SDF Internal SSD.shader
+    \Editor Resources\Shaders\TMP_SDF Internal SSD.shader.meta
+    \Editor Resources\Textures\btn_AlignBaseLine.psd.meta
+    \Editor Resources\Textures\btn_AlignBaseLine_Light.psd.meta
+    \Editor Resources\Textures\btn_AlignBottom.psd.meta
+    \Editor Resources\Textures\btn_AlignBottom_Light.psd.meta
+    \Editor Resources\Textures\btn_AlignCapLine.psd.meta
+    \Editor Resources\Textures\btn_AlignCapLine_Light.psd.meta
+    \Editor Resources\Textures\btn_AlignCenter.psd.meta
+    \Editor Resources\Textures\btn_AlignCenterGeo.psd.meta
+    \Editor Resources\Textures\btn_AlignCenterGeo_Light.psd.meta
+    \Editor Resources\Textures\btn_AlignCenter_Light.psd.meta
+    \Editor Resources\Textures\btn_AlignFlush.psd.meta
+    \Editor Resources\Textures\btn_AlignFlush_Light.psd.meta
+    \Editor Resources\Textures\btn_AlignJustified.psd.meta
+    \Editor Resources\Textures\btn_AlignJustified_Light.psd.meta
+    \Editor Resources\Textures\btn_AlignLeft.psd.meta
+    \Editor Resources\Textures\btn_AlignLeft_Light.psd.meta
+    \Editor Resources\Textures\btn_AlignMiddle.psd.meta
+    \Editor Resources\Textures\btn_AlignMiddle_Light.psd.meta
+    \Editor Resources\Textures\btn_AlignMidLine.psd.meta
+    \Editor Resources\Textures\btn_AlignMidline_Light.psd.meta
+    \Editor Resources\Textures\btn_AlignRight.psd.meta
+    \Editor Resources\Textures\btn_AlignRight_Light.psd.meta
+    \Editor Resources\Textures\btn_AlignTop.psd.meta
+    \Editor Resources\Textures\btn_AlignTop_Light.psd.meta
+    \Editor Resources\Textures\SectionHeader_Dark.psd.meta
+    \Editor Resources\Textures\SectionHeader_Light.psd.meta
+    \Package Resources\TMP Essential Resources.unitypackage
+    \Package Resources\TMP Essential Resources.unitypackage.meta
+    \Package Resources\TMP Examples & Extras.unitypackage
+    \Package Resources\TMP Examples & Extras.unitypackage.meta
+    \Scripts\Editor\TMPro_CreateObjectMenu.cs
+    \Scripts\Editor\TMPro_FontAssetCreatorWindow.cs
+    \Scripts\Editor\TMP_EditorUtility.cs
+    \Scripts\Editor\TMP_FontAssetEditor.cs
+    \Scripts\Editor\TMP_GlyphPairAdjustmentRecordPropertyDrawer.cs
+    \Scripts\Editor\TMP_PackageUtilities.cs
+    \Scripts\Editor\TMP_SpriteCharacterPropertyDrawer.cs
+    \Scripts\Editor\TMP_SpriteGlyphPropertyDrawer.cs
+    \Scripts\Runtime\FastAction.cs
+    \Scripts\Runtime\MaterialReferenceManager.cs
+    \Scripts\Runtime\TMPro_Private.cs
+    \Scripts\Runtime\TMPro_UGUI_Private.cs
+    \Scripts\Runtime\TMP_FontAsset.cs
+    \Scripts\Runtime\TMP_InputField.cs
+    \Scripts\Runtime\TMP_MaterialManager.cs
+    \Scripts\Runtime\TMP_SpriteAnimator.cs
+    \Scripts\Runtime\TMP_SpriteAsset.cs
+    \Scripts\Runtime\TMP_StyleSheet.cs
+    \Scripts\Runtime\TMP_Text.cs
+    \Scripts\Runtime\TMP_TextUtilities.cs
+    \Tests\Editor.meta
+    \Tests\Runtime.meta
+    \Tests\Editor\TMP_EditorTests.cs
+    \Tests\Editor\TMP_EditorTests.cs.meta
+    \Tests\Editor\Unity.TextMeshPro.Editor.Tests.asmdef
+    \Tests\Editor\Unity.TextMeshPro.Editor.Tests.asmdef.meta
+    \Tests\Runtime\TMP_RuntimeTests.cs
+    \Tests\Runtime\TMP_RuntimeTests.cs.meta
+    \Tests\Runtime\Unity.TextMeshPro.Tests.asmdef
+    \Tests\Runtime\Unity.TextMeshPro.Tests.asmdef.meta
+
+
+Package Tree
+------------
+
+<com.unity.textmeshpro>
+    .gitlab-ci.yml  (MODIFIED)
+    CHANGELOG.md  (MODIFIED)
+    CHANGELOG.md.meta  (MODIFIED)
+    Editor Resources.meta  (MODIFIED)
+    LICENSE.md  (MODIFIED)
+    LICENSE.md.meta  (MODIFIED)
+    Package Resources.meta  (MODIFIED)
+    package.json  (MODIFIED)
+    package.json.meta  (MODIFIED)
+    PackageConversionData.json  (MODIFIED)
+    PackageConversionData.json.meta  (MODIFIED)
+    PackageConversionData_Assets.json  (MODIFIED)
+    PackageConversionData_Assets.json.meta  (MODIFIED)
+    Scripts.meta  (MODIFIED)
+    Tests.meta  (MODIFIED)
+    <Documentation~>
+        TextMeshPro.md  (MODIFIED)
+        TextMeshPro.md.meta  (MODIFIED)
+    <Editor Resources>
+        Gizmos.meta  (MODIFIED)
+        Shaders.meta  (MODIFIED)
+        Textures.meta  (MODIFIED)
+        <Gizmos>
+            TMP - Dropdown Icon.psd
+            TMP - Dropdown Icon.psd.meta  (MODIFIED)
+            TMP - Font Asset Icon.psd
+            TMP - Font Asset Icon.psd.meta  (MODIFIED)
+            TMP - Input Field Icon.psd
+            TMP - Input Field Icon.psd.meta  (MODIFIED)
+            TMP - Sprite Asset Icon.psd
+            TMP - Sprite Asset Icon.psd.meta  (MODIFIED)
+            TMP - Text Component Icon.psd
+            TMP - Text Component Icon.psd.meta  (MODIFIED)
+        <Shaders>
+            TMP_Properties.cginc  (MODIFIED)
+            TMP_Properties.cginc.meta  (MODIFIED)
+            TMP_SDF Internal SSD.shader  (MODIFIED)
+            TMP_SDF Internal SSD.shader.meta  (MODIFIED)
+        <Textures>
+            btn_AlignBaseLine.psd
+            btn_AlignBaseLine.psd.meta  (MODIFIED)
+            btn_AlignBaseLine_Light.psd
+            btn_AlignBaseLine_Light.psd.meta  (MODIFIED)
+            btn_AlignBottom.psd
+            btn_AlignBottom.psd.meta  (MODIFIED)
+            btn_AlignBottom_Light.psd
+            btn_AlignBottom_Light.psd.meta  (MODIFIED)
+            btn_AlignCapLine.psd
+            btn_AlignCapLine.psd.meta  (MODIFIED)
+            btn_AlignCapLine_Light.psd
+            btn_AlignCapLine_Light.psd.meta  (MODIFIED)
+            btn_AlignCenter.psd
+            btn_AlignCenter.psd.meta  (MODIFIED)
+            btn_AlignCenterGeo.psd
+            btn_AlignCenterGeo.psd.meta  (MODIFIED)
+            btn_AlignCenterGeo_Light.psd
+            btn_AlignCenterGeo_Light.psd.meta  (MODIFIED)
+            btn_AlignCenter_Light.psd
+            btn_AlignCenter_Light.psd.meta  (MODIFIED)
+            btn_AlignFlush.psd
+            btn_AlignFlush.psd.meta  (MODIFIED)
+            btn_AlignFlush_Light.psd
+            btn_AlignFlush_Light.psd.meta  (MODIFIED)
+            btn_AlignJustified.psd
+            btn_AlignJustified.psd.meta  (MODIFIED)
+            btn_AlignJustified_Light.psd
+            btn_AlignJustified_Light.psd.meta  (MODIFIED)
+            btn_AlignLeft.psd
+            btn_AlignLeft.psd.meta  (MODIFIED)
+            btn_AlignLeft_Light.psd
+            btn_AlignLeft_Light.psd.meta  (MODIFIED)
+            btn_AlignMiddle.psd
+            btn_AlignMiddle.psd.meta  (MODIFIED)
+            btn_AlignMiddle_Light.psd
+            btn_AlignMiddle_Light.psd.meta  (MODIFIED)
+            btn_AlignMidLine.psd
+            btn_AlignMidLine.psd.meta  (MODIFIED)
+            btn_AlignMidline_Light.psd
+            btn_AlignMidline_Light.psd.meta  (MODIFIED)
+            btn_AlignRight.psd
+            btn_AlignRight.psd.meta  (MODIFIED)
+            btn_AlignRight_Light.psd
+            btn_AlignRight_Light.psd.meta  (MODIFIED)
+            btn_AlignTop.psd
+            btn_AlignTop.psd.meta  (MODIFIED)
+            btn_AlignTop_Light.psd
+            btn_AlignTop_Light.psd.meta  (MODIFIED)
+            SectionHeader_Dark.psd
+            SectionHeader_Dark.psd.meta  (MODIFIED)
+            SectionHeader_Light.psd
+            SectionHeader_Light.psd.meta  (MODIFIED)
+    <Package Resources>
+        TMP Essential Resources.unitypackage  (MODIFIED)
+        TMP Essential Resources.unitypackage.meta  (MODIFIED)
+        TMP Examples & Extras.unitypackage  (MODIFIED)
+        TMP Examples & Extras.unitypackage.meta  (MODIFIED)
+    <Scripts>
+        Editor.meta
+        Runtime.meta
+        <Editor>
+            DropdownOptionListDrawer.cs
+            DropdownOptionListDrawer.cs.meta
+            GlyphInfoDrawer.cs
+            GlyphInfoDrawer.cs.meta
+            GlyphMetricsPropertyDrawer.cs
+            GlyphMetricsPropertyDrawer.cs.meta
+            GlyphRectPropertyDrawer.cs
+            GlyphRectPropertyDrawer.cs.meta
+            TMPro_ContextMenus.cs
+            TMPro_ContextMenus.cs.meta
+            TMPro_CreateObjectMenu.cs  (MODIFIED)
+            TMPro_CreateObjectMenu.cs.meta
+            TMPro_EditorShaderUtilities.cs
+            TMPro_EditorShaderUtilities.cs.meta
+            TMPro_FontAssetCreatorWindow.cs  (MODIFIED)
+            TMPro_FontAssetCreatorWindow.cs.meta
+            TMPro_FontPlugin.cs
+            TMPro_FontPlugin.cs.meta
+            TMPro_SortingLayerHelper.cs
+            TMPro_SortingLayerHelper.cs.meta
+            TMPro_TextContainerEditor.cs
+            TMPro_TextContainerEditor.cs.meta
+            TMPro_TexturePostProcessor.cs
+            TMPro_TexturePostProcessor.cs.meta
+            TMP_BaseEditorPanel.cs
+            TMP_BaseEditorPanel.cs.meta
+            TMP_BaseShaderGUI.cs
+            TMP_BaseShaderGUI.cs.meta
+            TMP_BitmapShaderGUI.cs
+            TMP_BitmapShaderGUI.cs.meta
+            TMP_CharacterPropertyDrawer.cs
+            TMP_CharacterPropertyDrawer.cs.meta
+            TMP_ColorGradientAssetMenu.cs
+            TMP_ColorGradientAssetMenu.cs.meta
+            TMP_ColorGradientEditor.cs
+            TMP_ColorGradientEditor.cs.meta
+            TMP_DropdownEditor.cs
+            TMP_DropdownEditor.cs.meta
+            TMP_EditorCoroutine.cs
+            TMP_EditorCoroutine.cs.meta
+            TMP_EditorPanel.cs
+            TMP_EditorPanel.cs.meta
+            TMP_EditorUtility.cs  (MODIFIED)
+            TMP_EditorUtility.cs.meta
+            TMP_FontAssetEditor.cs  (MODIFIED)
+            TMP_FontAssetEditor.cs.meta
+            TMP_FontAsset_CreationMenu.cs
+            TMP_FontAsset_CreationMenu.cs.meta
+            TMP_GlyphPairAdjustmentRecordPropertyDrawer.cs  (MODIFIED)
+            TMP_GlyphPairAdjustmentRecordPropertyDrawer.cs.meta
+            TMP_GlyphPropertyDrawer.cs
+            TMP_GlyphPropertyDrawer.cs.meta
+            TMP_InputFieldEditor.cs
+            TMP_InputFieldEditor.cs.meta
+            TMP_MeshRendererEditor.cs
+            TMP_MeshRendererEditor.cs.meta
+            TMP_PackageUtilities.cs  (MODIFIED)
+            TMP_PackageUtilities.cs.meta
+            TMP_PostBuildProcessHandler.cs
+            TMP_PostBuildProcessHandler.cs.meta
+            TMP_ProjectTextSettings.cs
+            TMP_ProjectTextSettings.cs.meta
+            TMP_ResourcesLoader.cs
+            TMP_ResourcesLoader.cs.meta
+            TMP_SDFShaderGUI.cs
+            TMP_SDFShaderGUI.cs.meta
+            TMP_SerializedPropertyHolder.cs
+            TMP_SerializedPropertyHolder.cs.meta
+            TMP_SettingsEditor.cs
+            TMP_SettingsEditor.cs.meta
+            TMP_SpriteAssetEditor.cs
+            TMP_SpriteAssetEditor.cs.meta
+            TMP_SpriteAssetImporter.cs
+            TMP_SpriteAssetImporter.cs.meta
+            TMP_SpriteAssetMenu.cs
+            TMP_SpriteAssetMenu.cs.meta
+            TMP_SpriteCharacterPropertyDrawer.cs  (MODIFIED)
+            TMP_SpriteCharacterPropertyDrawer.cs.meta
+            TMP_SpriteGlyphPropertyDrawer.cs  (MODIFIED)
+            TMP_SpriteGlyphPropertyDrawer.cs.meta
+            TMP_StyleAssetMenu.cs
+            TMP_StyleAssetMenu.cs.meta
+            TMP_StyleSheetEditor.cs
+            TMP_StyleSheetEditor.cs.meta
+            TMP_SubMeshUI_Editor.cs
+            TMP_SubMeshUI_Editor.cs.meta
+            TMP_SubMesh_Editor.cs
+            TMP_SubMesh_Editor.cs.meta
+            TMP_TextAlignmentDrawer.cs
+            TMP_TextAlignmentDrawer.cs.meta
+            TMP_UiEditorPanel.cs
+            TMP_UiEditorPanel.cs.meta
+            TMP_UIStyleManager.cs
+            TMP_UIStyleManager.cs.meta
+            Unity.TextMeshPro.Editor.asmdef
+            Unity.TextMeshPro.Editor.asmdef.meta
+        <Runtime>
+            AssemblyInfo.cs.cs
+            AssemblyInfo.cs.cs.meta
+            FastAction.cs  (MODIFIED)
+            FastAction.cs.meta
+            MaterialReferenceManager.cs  (MODIFIED)
+            MaterialReferenceManager.cs.meta
+            TextContainer.cs
+            TextContainer.cs.meta
+            TextMeshPro.cs
+            TextMeshPro.cs.meta
+            TextMeshProUGUI.cs
+            TextMeshProUGUI.cs.meta
+            TMPro_EventManager.cs
+            TMPro_EventManager.cs.meta
+            TMPro_ExtensionMethods.cs
+            TMPro_ExtensionMethods.cs.meta
+            TMPro_MeshUtilities.cs
+            TMPro_MeshUtilities.cs.meta
+            TMPro_Private.cs  (MODIFIED)
+            TMPro_Private.cs.meta
+            TMPro_UGUI_Private.cs  (MODIFIED)
+            TMPro_UGUI_Private.cs.meta
+            TMP_Asset.cs
+            TMP_Asset.cs.meta
+            TMP_Character.cs
+            TMP_Character.cs.meta
+            TMP_CharacterInfo.cs
+            TMP_CharacterInfo.cs.meta
+            TMP_ColorGradient.cs
+            TMP_ColorGradient.cs.meta
+            TMP_CoroutineTween.cs
+            TMP_CoroutineTween.cs.meta
+            TMP_DefaultControls.cs
+            TMP_DefaultControls.cs.meta
+            TMP_Dropdown.cs
+            TMP_Dropdown.cs.meta
+            TMP_EditorResourceManager.cs  --REMOVED--
+            TMP_EditorResourceManager.cs.meta  --REMOVED--
+            TMP_FontAsset.cs  (MODIFIED)
+            TMP_FontAsset.cs.meta
+            TMP_FontAssetCommon.cs
+            TMP_FontAssetCommon.cs.meta
+            TMP_FontAssetUtilities.cs
+            TMP_FontAssetUtilities.cs.meta
+            TMP_FontFeaturesCommon.cs
+            TMP_FontFeaturesCommon.cs.meta
+            TMP_FontFeatureTable.cs
+            TMP_FontFeatureTable.cs.meta
+            TMP_InputField.cs  (MODIFIED)
+            TMP_InputField.cs.meta
+            TMP_InputValidator.cs
+            TMP_InputValidator.cs.meta
+            TMP_LineInfo.cs
+            TMP_LineInfo.cs.meta
+            TMP_ListPool.cs
+            TMP_ListPool.cs.meta
+            TMP_MaterialManager.cs  (MODIFIED)
+            TMP_MaterialManager.cs.meta
+            TMP_MeshInfo.cs
+            TMP_MeshInfo.cs.meta
+            TMP_ObjectPool.cs
+            TMP_ObjectPool.cs.meta
+            TMP_PackageResourceImporter.cs
+            TMP_PackageResourceImporter.cs.meta
+            TMP_RichTextTagsCommon.cs
+            TMP_RichTextTagsCommon.cs.meta
+            TMP_RichTextTagStack.cs
+            TMP_RichTextTagStack.cs.meta
+            TMP_ScrollbarEventHandler.cs
+            TMP_ScrollbarEventHandler.cs.meta
+            TMP_SelectionCaret.cs
+            TMP_SelectionCaret.cs.meta
+            TMP_Settings.cs
+            TMP_Settings.cs.meta
+            TMP_ShaderUtilities.cs
+            TMP_ShaderUtilities.cs.meta
+            TMP_Sprite.cs
+            TMP_Sprite.cs.meta
+            TMP_SpriteAnimator.cs  (MODIFIED)
+            TMP_SpriteAnimator.cs.meta
+            TMP_SpriteAsset.cs  (MODIFIED)
+            TMP_SpriteAsset.cs.meta
+            TMP_SpriteAssetImportFormats.cs
+            TMP_SpriteAssetImportFormats.cs.meta
+            TMP_SpriteCharacter.cs
+            TMP_SpriteCharacter.cs.meta
+            TMP_SpriteGlyph.cs
+            TMP_SpriteGlyph.cs.meta
+            TMP_Style.cs
+            TMP_Style.cs.meta
+            TMP_StyleSheet.cs  (MODIFIED)
+            TMP_StyleSheet.cs.meta
+            TMP_SubMesh.cs
+            TMP_SubMesh.cs.meta
+            TMP_SubMeshUI.cs
+            TMP_SubMeshUI.cs.meta
+            TMP_Text.cs  (MODIFIED)
+            TMP_Text.cs.meta
+            TMP_TextElement.cs
+            TMP_TextElement.cs.meta
+            TMP_TextElement_Legacy.cs
+            TMP_TextElement_Legacy.cs.meta
+            TMP_TextInfo.cs
+            TMP_TextInfo.cs.meta
+            TMP_TextParsingUtilities.cs
+            TMP_TextParsingUtilities.cs.meta
+            TMP_TextUtilities.cs  (MODIFIED)
+            TMP_TextUtilities.cs.meta
+            TMP_UpdateManager.cs
+            TMP_UpdateManager.cs.meta
+            TMP_UpdateRegistery.cs
+            TMP_UpdateRegistery.cs.meta
+            Unity.TextMeshPro.asmdef
+            Unity.TextMeshPro.asmdef.meta
+    <Tests>
+        Editor.meta  (MODIFIED)
+        Runtime.meta  (MODIFIED)
+        <Editor>
+            TMP_EditorTests.cs  (MODIFIED)
+            TMP_EditorTests.cs.meta  (MODIFIED)
+            Unity.TextMeshPro.Editor.Tests.asmdef  (MODIFIED)
+            Unity.TextMeshPro.Editor.Tests.asmdef.meta  (MODIFIED)
+        <Runtime>
+            TMP_RuntimeTests.cs  (MODIFIED)
+            TMP_RuntimeTests.cs.meta  (MODIFIED)
+            Unity.TextMeshPro.Tests.asmdef  (MODIFIED)
+            Unity.TextMeshPro.Tests.asmdef.meta  (MODIFIED)

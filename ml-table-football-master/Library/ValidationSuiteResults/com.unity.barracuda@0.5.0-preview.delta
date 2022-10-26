@@ -1,0 +1,257 @@
+Package Update Delta Evaluation
+-------------------------------
+
+Package Name: com.unity.barracuda
+Package Version: 0.5.0-preview
+Compared to Version: 0.4.0-preview
+
+Removed from package:
+    \Barracuda\Core\Internals\NNModelData.cs
+    \Barracuda\Core\Internals\NNModelData.cs.meta
+    \Barracuda\Plugins\Editor\BarracudaEditor\ONNXLayout.cs
+    \Barracuda\Plugins\Editor\BarracudaEditor\ONNXLayout.cs.meta
+    \Barracuda\Plugins\Editor\BarracudaEditor\ONNXNodeWrapper.cs
+    \Barracuda\Plugins\Editor\BarracudaEditor\ONNXNodeWrapper.cs.meta
+    \Barracuda\Plugins\Editor\BarracudaEditor\ONNXTensor.cs
+    \Barracuda\Plugins\Editor\BarracudaEditor\ONNXTensor.cs.meta
+
+Modified:
+    \CHANGELOG.md
+    \package.json
+    \Barracuda\Core\BackwardsCompatibility.cs
+    \Barracuda\Core\Barracuda.cs
+    \Barracuda\Core\Model.cs
+    \Barracuda\Core\ModelBuilder.cs
+    \Barracuda\Core\ModelLoader.cs
+    \Barracuda\Core\Tensor.cs
+    \Barracuda\Core\TensorExtensions.cs
+    \Barracuda\Core\Backends\BarracudaBackends.cs
+    \Barracuda\Core\Backends\BarracudaCompute.cs
+    \Barracuda\Core\Backends\BarracudaReferenceCompute.cs
+    \Barracuda\Core\Backends\BarracudaReferenceCPU.cs
+    \Barracuda\Core\Backends\CompareOps.cs
+    \Barracuda\Core\Backends\ComputeInfo.cs
+    \Barracuda\Core\Backends\ComputeShaderSingleton.cs
+    \Barracuda\Core\Backends\GenericWorker.cs
+    \Barracuda\Core\Backends\MatrixUtils.cs
+    \Barracuda\Core\Backends\ModelAnalyzer.cs
+    \Barracuda\Core\Backends\StatsOps.cs
+    \Barracuda\Core\Backends\VerboseOps.cs
+    \Barracuda\Core\Internals\Debug.cs
+    \Barracuda\Core\Internals\NNModel.cs
+    \Barracuda\Core\Resources\BarracudaReferenceImpl.compute
+    \Barracuda\Core\Resources\Conv.compute
+    \Barracuda\Core\Resources\Dense.compute
+    \Barracuda\Core\Resources\Pad.compute
+    \Barracuda\Core\Resources\Pool.compute
+    \Barracuda\Core\Resources\Tensor.cginc
+    \Barracuda\Plugins\Editor\BarracudaEditor\NNModelImporter.cs
+    \Barracuda\Plugins\Editor\BarracudaEditor\ONNXModelImporter.cs
+    \Barracuda\Plugins\Editor\BarracudaEditor\ONNXModelImporterEditor.cs
+
+
+Package Tree
+------------
+
+<com.unity.barracuda>
+    Barracuda.meta
+    CHANGELOG.md  (MODIFIED)
+    CHANGELOG.md.meta
+    LICENSE.md
+    LICENSE.md.meta
+    package.json  (MODIFIED)
+    package.json.meta
+    README.md
+    README.md.meta
+    Tools.meta
+    <Barracuda>
+        Burst.meta
+        Core.meta
+        Plugins.meta
+        <Burst>
+            BurstBLAS.asmdef
+            BurstBLAS.asmdef.meta
+            BurstBLAS.cs
+            BurstBLAS.cs.meta
+        <Core>
+            AssemblyInfo.cs
+            AssemblyInfo.cs.meta
+            Backends.meta
+            BackwardsCompatibility.cs  (MODIFIED)
+            BackwardsCompatibility.cs.meta
+            Barracuda.asmdef
+            Barracuda.asmdef.meta
+            Barracuda.cs  (MODIFIED)
+            Barracuda.cs.meta
+            Internals.meta
+            Model.cs  (MODIFIED)
+            Model.cs.meta
+            ModelBuilder.cs  (MODIFIED)
+            ModelBuilder.cs.meta
+            ModelLoader.cs  (MODIFIED)
+            ModelLoader.cs.meta
+            ModelWriter.cs
+            ModelWriter.cs.meta
+            PluginInterfaces.cs
+            PluginInterfaces.cs.meta
+            Resources.meta
+            Tensor.cs  (MODIFIED)
+            Tensor.cs.meta
+            TensorExtensions.cs  (MODIFIED)
+            TensorExtensions.cs.meta
+            <Backends>
+                BarracudaBackends.cs  (MODIFIED)
+                BarracudaBackends.cs.meta
+                BarracudaBackendsFactory.cs
+                BarracudaBackendsFactory.cs.meta
+                BarracudaCompute.cs  (MODIFIED)
+                BarracudaCompute.cs.meta
+                BarracudaPrecompiledCompute.cs
+                BarracudaPrecompiledCompute.cs.meta
+                BarracudaReferenceCompute.cs  (MODIFIED)
+                BarracudaReferenceCompute.cs.meta
+                BarracudaReferenceCPU.cs  (MODIFIED)
+                BarracudaReferenceCPU.cs.meta
+                BarracudaUnsafeArrayCPU.cs
+                BarracudaUnsafeArrayCPU.cs.meta
+                CompareOps.cs  (MODIFIED)
+                CompareOps.cs.meta
+                ComputeInfo.cs  (MODIFIED)
+                ComputeInfo.cs.meta
+                ComputeShaderSingleton.cs  (MODIFIED)
+                ComputeShaderSingleton.cs.meta
+                GenericWorker.cs  (MODIFIED)
+                GenericWorker.cs.meta
+                MatrixUtils.cs  (MODIFIED)
+                MatrixUtils.cs.meta
+                ModelAnalyzer.cs  (MODIFIED)
+                ModelAnalyzer.cs.meta
+                StatsOps.cs  (MODIFIED)
+                StatsOps.cs.meta
+                TensorAllocators.cs
+                TensorAllocators.cs.meta
+                VerboseOps.cs  (MODIFIED)
+                VerboseOps.cs.meta
+            <Internals>
+                Debug.cs  (MODIFIED)
+                Debug.cs.meta
+                NNModel.cs  (MODIFIED)
+                NNModel.cs.meta
+                NNModelData.cs  --REMOVED--
+                NNModelData.cs.meta  --REMOVED--
+                StringCache.cs
+                StringCache.cs.meta
+                TestSetLoader.cs
+                TestSetLoader.cs.meta
+            <Resources>
+                Activation.compute
+                Activation.compute.meta
+                BarracudaReferenceImpl.compute  (MODIFIED)
+                BarracudaReferenceImpl.compute.meta
+                Broadcast.compute
+                Broadcast.compute.meta
+                Conv.compute  (MODIFIED)
+                Conv.compute.meta
+                Dense.compute  (MODIFIED)
+                Dense.compute.meta
+                DenseFP16.compute
+                DenseFP16.compute.meta
+                Generic.compute
+                Generic.compute.meta
+                Pad.compute  (MODIFIED)
+                Pad.compute.meta
+                Pool.compute  (MODIFIED)
+                Pool.compute.meta
+                Random.cginc
+                Random.cginc.meta
+                Tensor.cginc  (MODIFIED)
+                Tensor.cginc.meta
+        <Plugins>
+            Editor.meta
+            iOS.meta
+            OSX.meta
+            ProtoBuffer.meta
+            <Editor>
+                BarracudaEditor.meta
+                <BarracudaEditor>
+                    Barracuda-editor.asmdef
+                    Barracuda-editor.asmdef.meta
+                    Generated.meta
+                    HalfHelper.cs
+                    HalfHelper.cs.meta
+                    NNModelIcon.png
+                    NNModelIcon.png.meta
+                    NNModelImporter.cs  (MODIFIED)
+                    NNModelImporter.cs.meta
+                    ONNXLayout.cs  --REMOVED--
+                    ONNXLayout.cs.meta  --REMOVED--
+                    ONNXModelIcon.png
+                    ONNXModelIcon.png.meta
+                    ONNXModelImporter.cs  (MODIFIED)
+                    ONNXModelImporter.cs.meta
+                    ONNXModelImporterEditor.cs  (MODIFIED)
+                    ONNXModelImporterEditor.cs.meta
+                    ONNXNodeWrapper.cs  --REMOVED--
+                    ONNXNodeWrapper.cs.meta  --REMOVED--
+                    ONNXTensor.cs  --REMOVED--
+                    ONNXTensor.cs.meta  --REMOVED--
+                    <Generated>
+                        Onnx.cs
+                        Onnx.cs.meta
+                        onnx.proto3
+                        onnx.proto3.meta
+            <iOS>
+                iOSBLAS.asmdef
+                iOSBLAS.asmdef.meta
+                iOSBLAS.cs
+                iOSBLAS.cs.meta
+                iOSBLAS.mm
+                iOSBLAS.mm.meta
+            <OSX>
+                MacBLAS.asmdef
+                MacBLAS.asmdef.meta
+                macblas.bundle.meta
+                MacBLAS.cs
+                MacBLAS.cs.meta
+                <macblas.bundle>
+                    Contents.meta
+                    <Contents>
+                        Info.plist
+                        Info.plist.meta
+                        MacOS.meta
+                        _CodeSignature.meta
+                        <MacOS>
+                            macblas
+                            macblas.meta
+                        <_CodeSignature>
+                            CodeResources
+                            CodeResources.meta
+            <ProtoBuffer>
+                Google.Protobuf.dll
+                Google.Protobuf.dll.meta
+                Google.Protobuf.pdb
+                Google.Protobuf.pdb.meta
+    <Documentation~>
+        Barracuda.md
+        Barracuda.md.meta
+    <Tools>
+        barracuda.py
+        barracuda.py.meta
+        docker-keras-to-barracuda.sh
+        docker-keras-to-barracuda.sh.meta
+        docker-onnx-to-barracuda.sh
+        docker-onnx-to-barracuda.sh.meta
+        docker-tensorflow-to-barracuda.sh
+        docker-tensorflow-to-barracuda.sh.meta
+        Dockerfile
+        Dockerfile.meta
+        keras_to_barracuda.py
+        keras_to_barracuda.py.meta
+        onnx_to_barracuda.py
+        onnx_to_barracuda.py.meta
+        requirements.txt
+        requirements.txt.meta
+        run-in-docker.sh
+        run-in-docker.sh.meta
+        tensorflow_to_barracuda.py
+        tensorflow_to_barracuda.py.meta

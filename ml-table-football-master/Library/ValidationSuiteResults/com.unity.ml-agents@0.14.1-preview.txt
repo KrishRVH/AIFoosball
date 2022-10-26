@@ -1,0 +1,70 @@
+Validation Suite Results for package "com.unity.ml-agents"
+ - Path: C:\Users\krish\OneDrive\Documents\Capstone\Unity_Foosball\ml-agents-0.14.1\com.unity.ml-agents
+ - Version: 0.14.1-preview
+ - Test Time: 10/4/2022 10:13:54 AM
+ - Tested with com.unity.package-validation-suite version: 0.7.15-preview
+
+PACKAGE DEPENDENCIES:
+--------------------
+    - com.unity.barracuda@0.5.0-preview
+
+VALIDATION RESULTS:
+-------------------
+
+Failed - "API Validation"
+    Error: Compilation failed. Please fix any compilation errors.
+    
+Failed - "API Updater Configuration Validation"
+    Error: Compilation failed. Please fix any compilation errors.
+    
+Failed - "Xmldoc Validation"
+    Error: Compilation failed. Please fix any compilation errors.
+    
+Succeeded - "Assembly Definition Validation"
+    
+Succeeded - "ChangeLog Validation"
+    
+Succeeded - "Folder Structure Validation"
+    Warning: The Resources Directory should not be used in packages.  For more guidance, please visit https://docs.unity3d.com/Manual/BestPracticeUnderstandingPerformanceInUnity6.html
+
+    Information: Problematic directory: /C:/Users/krish/AppData/Local/Temp/publish-com.unity.ml-agents@0.14.1-preview/Runtime/Resources
+    
+Succeeded - "License Validation"
+    Warning: A LICENSE.md file exists in the package, but is in the wrong format.  Ensure the copyright year is set properly, otherwise, please check the package starter kit's license file as reference.  https://github.cds.internal.unity3d.com/unity/com.unity.package-validation-suite/blob/dev/LICENSE.md  It was `                                 Apache License` but was expecting `com.unity.ml-agents copyright © 2022 Unity Technologies ApS` or `ML Agents copyright © 2022 Unity Technologies ApS`
+    
+Succeeded - "Documentation Validation"
+    
+Succeeded - "Manifest Validation"
+    Information: Skipping Git tags check as this is a package in development.
+    
+Succeeded - "Meta Files Validation"
+    
+Succeeded - "Path Length Validation"
+    
+Succeeded - "Required File Type Validation"
+    
+Succeeded - "Restricted File Type Validation"
+    Warning: C:\Users\krish\AppData\Local\Temp\publish-com.unity.ml-agents@0.14.1-preview\Plugins\System.IO.Abstractions.dll should not be included in packages unless absolutely necessary.  Please confirm that it's inclusion is deliberate and intentional.
+
+    Warning: C:\Users\krish\AppData\Local\Temp\publish-com.unity.ml-agents@0.14.1-preview\Plugins\System.IO.Abstractions.TestingHelpers.dll should not be included in packages unless absolutely necessary.  Please confirm that it's inclusion is deliberate and intentional.
+
+    Warning: C:\Users\krish\AppData\Local\Temp\publish-com.unity.ml-agents@0.14.1-preview\Plugins\ProtoBuffer\Grpc.Core.dll should not be included in packages unless absolutely necessary.  Please confirm that it's inclusion is deliberate and intentional.
+
+    Warning: C:\Users\krish\AppData\Local\Temp\publish-com.unity.ml-agents@0.14.1-preview\Plugins\ProtoBuffer\System.Interactive.Async.dll should not be included in packages unless absolutely necessary.  Please confirm that it's inclusion is deliberate and intentional.
+
+    Warning: C:\Users\krish\AppData\Local\Temp\publish-com.unity.ml-agents@0.14.1-preview\Plugins\ProtoBuffer\runtimes\win\native\grpc_csharp_ext.x64.dll should not be included in packages unless absolutely necessary.  Please confirm that it's inclusion is deliberate and intentional.
+
+    Warning: C:\Users\krish\AppData\Local\Temp\publish-com.unity.ml-agents@0.14.1-preview\Plugins\ProtoBuffer\runtimes\win\native\grpc_csharp_ext.x86.dll should not be included in packages unless absolutely necessary.  Please confirm that it's inclusion is deliberate and intentional.
+    
+Succeeded - "Unity Version Validation"
+    
+Succeeded - "Package Update Validation"
+    
+NotRun - "Package Diff Evaluation"
+    Information: No previous package version. Skipping diff evaluation.
+    
+NotRun - "Samples Validation"
+    Information: No samples found. Skipping Samples Validation.
+    
+NotImplementedYet - "Signature Validation"
+    
